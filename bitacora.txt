@@ -13,3 +13,4 @@
 06	add + commit -m "Paso 06"
 07	branch develop
 08	checkout -b feature/Ticket220
+14	stash + checkout feature/Ticket220
