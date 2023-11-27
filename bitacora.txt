@@ -14,3 +14,8 @@
 07	branch develop
 08	checkout -b feature/Ticket220
 14	stash + checkout feature/Ticket220
+18	stash apply + editar fichero
+19	add + commit -m "Paso 19"
+20	checkout develop
+21	branch feature/Ticket222
+22	checkout feature/Ticket220		Sería por FastForward porque con cambiar el puntero sería suficiente, se puede llegar simplemente avanzando por una misma linea de commits
