@@ -13,9 +13,25 @@
 06	add + commit -m "Paso 06"
 07	branch develop
 08	checkout -b feature/Ticket220
+10	add + commit -m "Paso 10"
+11	checkout develop
+12	checkout -b feature/Ticket221
 14	stash + checkout feature/Ticket220
+16	add + commit -m "Paso 16"
+17	checkout feature/Ticket221
 18	stash apply + editar fichero
 19	add + commit -m "Paso 19"
 20	checkout develop
 21	branch feature/Ticket222
 22	checkout feature/Ticket220		Sería por FastForward porque con cambiar el puntero sería suficiente, se puede llegar simplemente avanzando por una misma linea de commits
+24	add + commit -m "Paso 24"
+25	checkout develop
+26	merge --no-ff feature/Ticket220
+27	merge --no-ff feature/Ticket221		Al realizar la fusión, se 
+						produce un error porque existen 
+						conflictos en el archivo bitacora.txt.
+						Se resuelven los conflictos y se 
+						ordenan los pasos.
+						La fusión es recursiva con conflictos 
+						porque los cambios han sido en partes
+						idénticas del archivo.
