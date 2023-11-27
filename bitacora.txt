@@ -35,3 +35,9 @@
 						La fusión es recursiva con conflictos 
 						porque los cambios han sido en partes
 						idénticas del archivo.
+29	add + commit -m "Paso 29"
+30 	tag Step29
+31	push -u origin develop
+32	checkout feature/Ticket222
+33	checkout 658ef44 bitacora.txt
+
