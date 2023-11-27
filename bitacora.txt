@@ -10,3 +10,8 @@
 02	editar fichero
 03	add + commit -m "Paso 03"
 04	push origin master
+10	add + commit -m "Paso 10"
+11	checkout develop
+12	checkout -b feature/Ticket221
+16	add + commit -m "Paso 16"
+17	checkout feature/Ticket221
