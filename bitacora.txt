@@ -40,4 +40,14 @@
 31	push -u origin develop
 32	checkout feature/Ticket222
 33	checkout 658ef44 bitacora.txt
-
+35	add + commit -m "Paso 35"
+36	checkout develop
+37	merge --no-ff feature/Ticket222		Al realizar la fusión, se 
+						produce un error porque existen 
+						conflictos en el archivo bitacora.txt.
+						Se resuelven los conflictos y se 
+						ordenan los pasos.
+						El conflicto se produjo en la ultima línea
+						del fichero.
+38	checkout master
+39	merge --no-ff develop
