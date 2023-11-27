@@ -10,3 +10,6 @@
 02	editar fichero
 03	add + commit -m "Paso 03"
 04	push origin master
+06	add + commit -m "Paso 06"
+07	branch develop
+08	checkout -b feature/Ticket220
