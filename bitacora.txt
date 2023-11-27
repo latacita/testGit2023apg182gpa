@@ -51,3 +51,7 @@
 						del fichero.
 38	checkout master
 39	merge --no-ff develop
+						Me ha faltado por indicar que en el
+						paso 37 después del merge hice un add
+						y commit -m "Solucionar error conflicto
+						de ultima linea en paso 37"
